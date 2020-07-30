@@ -21,12 +21,12 @@ cd path/to/v-rep
 ./coppeliaSim.sh
 ```
 
-### Monocular camera
+#### Monocular camera
 1) Open ~/ROS_and_V-REP/scenes/rosInterfaceTopicPublisherAndSubscriber.ttt
 
 2) Play the scene. The image from V-Rep is now being published in the /image topic.
 
-### Stereo camera
+#### Stereo camera
 1) Open ~/ROS_and_V-REP/scenes/rosInterfaceTopicPublisherAndSubscriber.ttt
 
 2) Play the scene. Both images from V-Rep are now being published in the /left/image_raw and right/image_raw topics.
@@ -94,7 +94,7 @@ cd path/to/v-rep
 ./coppeliaSim.sh
 ```
 
-1) Open /ROS_and_V-REP/scenes/generate_dataset_maze.ttt
+1) Open ~/ROS_and_V-REP/scenes/generate_dataset_maze.ttt
 2) Play the scene
 
 * Terminal 2:
